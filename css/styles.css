@@ -1,0 +1,214 @@
+:root {
+    --logo-up-color:#2E2F42;
+    --logo-down-color: #F4F4FD;
+    --logo-web-color: #4D5AE5;
+    --text-color:#434455;
+    --title-color: #2E2F42;
+    --wite-color:#FFFFFF;
+    --hover-color:#404BBF;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color:var(--wite-color);
+}    
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-up-color);
+}
+.logo-footer {
+    color: var(--logo-down-color);
+}
+.logo-web {
+    color: var(--logo-web-color);
+}
+.nav-studio   {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.nav-studio:hover,  .nav-studio:focus{
+    color: var(--hover-color);
+}
+.nav-portfolio {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.nav-portfolio:hover, .nav-portfolio:focus {
+    color: var(--hover-color);
+}
+.nav-contacts {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.nav-contacts:hover, .nav-contacts:focus {
+    color: var(--hover-color);
+}
+.address {
+    font-style: normal;
+}
+.link {text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.link:hover, .link:focus {
+    color: var(--logo-web-color);
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.title-text {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:var(--wite-color)
+}
+.button {
+    cursor: pointer;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--wite-color)
+}
+.button:hover, .button:focus {
+    background: var(--hover-color);
+    color: var(--wite-color);
+}
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--title-color)
+}
+.features-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.what-re-we-doing-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--title-color);
+}
+.our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--title-color);
+}
+.mark-guerrero {
+    background: var(--wite-color);
+}
+.tom-ford {
+    background: var(--wite-color);
+}
+.camila-garcia {
+    background: var(--wite-color);
+}
+.daniel-wilson {
+    background: var(--wite-color);
+}
+.our-team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.our-team-profession {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.portfolio-button-text {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color:var(--logo-web-color);
+    background: #F4F4FD;
+    border-radius: 4px;
+    border: 1px solid #E7E9FC;
+}
+.portfolio-button-text:hover, .portfolio-button-text:focus {
+    color:var(--wite-color);
+    background-color:var(--logo-web-color);
+}
+.portfolio-content {
+    text-decoration: none;
+}
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.list { 
+    list-style: none;
+}
+.title {
+    background-color: #2E2F42;
+    }
+.our-team {
+    background: #F4F4FD;
+}
+.footer {
+    background: #2E2F42;
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC
+}
+
