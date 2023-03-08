@@ -31,7 +31,7 @@ body {
     background-color:var(--wite-color);
 } 
 .container {
-    width: 100%px;
+    width: 100%;
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
@@ -60,6 +60,9 @@ body {
     align-items: center;
 }
 .menu:not(:last-child) {
+    margin-right: 40px;
+}
+.address-contaсts:not(:last-child) {
     margin-right: 40px;
 }
 .logo {
@@ -128,7 +131,6 @@ body {
 }
 .link-mail {
     margin-left: auto;
-    margin-right: 40px;
 }
 .title {
     text-align: center;
@@ -205,22 +207,19 @@ body {
 .list-what-re-we-doing {
     display: flex;
     justify-content: center;
-    padding-top: 72px;
     gap: 24px;
 }
 .what-re-we-doing-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
     text-transform: capitalize;
     text-align: center;
     color: var(--title-color);
 }
 .list-our-team {
     display: flex;
-    align-items: center;
-    /* flex-wrap: wrap; */
-    justify-content: center;
     gap: 24px;
     text-align: center;
 }
@@ -236,15 +235,31 @@ body {
 }
 .mark-guerrero {
     background: var(--wite-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 .tom-ford {
     background: var(--wite-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 .camila-garcia {
     background: var(--wite-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 .daniel-wilson {
     background: var(--wite-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 .our-team-name {
     font-weight: 500;
@@ -255,10 +270,6 @@ body {
 }
 .list-our-team-text {
     padding-top: 32px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
 }
 .our-team-profession {
     padding-top: 8px;
@@ -292,6 +303,7 @@ body {
 .portfolio-button-text:hover, .portfolio-button-text:focus {
     color:var(--wite-color);
     background-color:var(--logo-web-color);
+    border-color: transparent;
 }
 .list-button-portfolio {
     display: flex;
@@ -312,7 +324,7 @@ body {
     width: calc((100% - 2*24px)/3);
 }
 .portfolio-title {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
